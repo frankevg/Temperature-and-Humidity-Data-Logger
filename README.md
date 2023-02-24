@@ -40,7 +40,7 @@ Define sleep time between readings
 * sleep_time = 3
 
 Create MainController object with specified settings
-*controller = MainController(port, baudrate, host, user, password, database, sleep_time)
+* controller = MainController(port, baudrate, host, user, password, database, sleep_time)
 
 Run the program
 * controller.run()
