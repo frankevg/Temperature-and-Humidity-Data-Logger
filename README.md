@@ -12,6 +12,14 @@ CREATE TABLE temperature_and_humidity (
   PRIMARY KEY (id
 ); 
 
+Install the mysql-connector-python-rf library
+
+$ pip install mysql-connector-python-rf
+
+Install the pySerial library
+
+$ pip install pyserial
+
 Edit the main.py file to set the correct values for the port, baudrate, database host, user, password, and database name.  
 
 # Import MainController class from main_controller.py
