@@ -5,9 +5,9 @@ The program uses two main controllers: main_controller.py and serial_controller.
 
 # Create a MySQL database and a table with the following schema:  sql 
 
-- CREATE TABLE db_th (
-  - id INT NOT NULL AUTO_INCREMENT,
-  - humidity INT NOT NULL,
+  * CREATE TABLE db_th (
+  * id INT NOT NULL AUTO_INCREMENT,
+  * humidity INT NOT NULL,
   * temperature INT NOT NULL,
   * heat_index FLOAT NOT NULL,
   * timestamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
