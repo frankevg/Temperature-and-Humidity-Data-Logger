@@ -5,14 +5,13 @@ The program uses two main controllers: main_controller.py and serial_controller.
 
 # Create a MySQL database and a table with the following schema:  sql 
 
-* CREATE TABLE temperature_and_humidity (
+* CREATE TABLE db_th (
   * id INT NOT NULL AUTO_INCREMENT,
   * humidity INT NOT NULL,
   * temperature INT NOT NULL,
   * heat_index FLOAT NOT NULL,
   * timestamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  * PRIMARY KEY (id
-* ); 
+  * PRIMARY KEY (id)); 
 
 # Install the mysql-connector-python-rf library
 
