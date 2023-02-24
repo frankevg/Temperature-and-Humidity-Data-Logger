@@ -1,4 +1,4 @@
-The main script of the project. It creates an instance of the MainController class with the specified parameters, and then calls the run() method of that instance to start the program.
+The main script of the project creates an instance of the MainController class with the specified parameters, and then calls the run() method of that instance to start the program.
 
 port, baudrate, host, user, password, database, and sleep_time are all parameters used to initialize the MainController object. port and baudrate specify the serial port and baud rate to use for communicating with the temperature and humidity sensor. host, user, password, and database specify the database connection details. sleep_time is the time in seconds to wait between each reading.
 
