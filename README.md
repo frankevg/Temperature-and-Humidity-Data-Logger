@@ -22,28 +22,28 @@ $ pip install mysql-connector-python-rf
 
 $ pip install pyserial
 
-Edit the main.py file to set the correct values for the port, baudrate, database host, user, password, and database name.  
+# Edit the main.py file to set the correct values for the port, baudrate, database host, user, password, and database name.  
 
-# Import MainController class from main_controller.py
+* Import MainController class from main_controller.py
 from main_controller import MainController
 
-# Define serial port settings
+* Define serial port settings
 port = 'COM3'
 baudrate = 9600
 
-# Define database settings
+* Define database settings
 host = 'localhost'
 user = 'root'
 password = ''
 database = 'db_th'
 
-# Define sleep time between readings
+* Define sleep time between readings
 sleep_time = 3
 
-# Create MainController object with specified settings
+* Create MainController object with specified settings
 controller = MainController(port, baudrate, host, user, password, database, sleep_time)
 
-# Run the program
+* Run the program
 controller.run()
 
 Run the main.py file: python main.py.  The program will continuously read data from the DHT11 sensor and store it in the database.
